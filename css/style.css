@@ -280,6 +280,7 @@ section {
 .timeline-items::before {
     content: "";
     position: absolute;
+    top: 10px;
     width: 5px;
     height: 100%;
     background-color: var(--main-color);
