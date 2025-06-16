@@ -1,4 +1,4 @@
-
+j
 :root {
     --bg-color: #080808;
     --second-bg-color: #101010;
@@ -524,6 +524,11 @@ section {
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
+    
+    /* Novas propriedades para tamanho fixo */
+    width: 100%;          /* Ocupa toda a largura do grid */
+    min-height: 300px;    /* Altura mínima fixa (ajuste conforme necessário) */
+    height: 100%;         /* Garante que todos os cards tenham a mesma altura */
 }
 
 .project-card a {
@@ -543,6 +548,11 @@ section {
     object-fit: cover;
 }
 
+.cafeteria-img {
+    width: 300px;
+    background-size: contain;
+}
+
 .project-card h3 {
     display: inline;
     font-size: 2.5rem;
@@ -552,6 +562,7 @@ section {
 .project-card p {
 
     font-size: 1.6rem;
+    line-height: 22px;
 }
 
 .contato {
