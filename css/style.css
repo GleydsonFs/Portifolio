@@ -437,7 +437,7 @@ section {
 
 .cursos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(155px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     align-items: center;
     gap: 3rem;
     
